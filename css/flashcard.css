@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="css/flashcard.css">
+</head>
+<body>
+    <div id="flashcard-container">
+        <div id="flashcard" class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+        </div>
+        <div id="buttons">
+            <button id="back-btn">Back</button>
+            <button id="flip-btn">Flip</button>
+            <button id="next-btn">Next</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <div id="message" style="display: none;">You are all done for today!</div>
+    </div>
+    <script src="js/flash.js"></script>
+</body>
+</html>
